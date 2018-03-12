@@ -20,7 +20,7 @@ The names of the columns don't matter, but you **DO** need headers, and the colu
   - `$cd new_directory`
   - `$virtualenv venv`
 3. Activate the corresponding virtual environment
--`$ . venv/bin/activate`
+- `$ . venv/bin/activate`
 4. Install `pandas`
 - `pip install pandas`
 

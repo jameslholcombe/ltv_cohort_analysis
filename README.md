@@ -34,3 +34,6 @@ The names of the columns don't matter, but you **DO** need headers, and the colu
 `$ python3 ltv_cohort_analysis.py my_excel_transaction_file M`
 
 `$ python3 ltv_cohort_analysis.py sql_dump D`
+
+## Last Step
+Save your raw transaction data excel file **into** the ltv_cohort_analysis directory that's created when you clone this git repository.

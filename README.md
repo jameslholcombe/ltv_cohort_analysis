@@ -12,7 +12,7 @@ Name the tab the data is in `raw_data`.
 
 The names of the columns don't matter, but you **DO** need headers, and the columns should be in the correct order.
 
-## To run the program:
+## To prepare running the program:
 1. Install `virtualenv` on your system:
   - On OSX or Linux, this will probably work: `$ sudo pip install virtualenv`
   - On Ubuntu Linux, this will probably work: `$ sudo apt-get install python-virtualenv`
@@ -28,12 +28,15 @@ The names of the columns don't matter, but you **DO** need headers, and the colu
   - `M` : Month
   - `D` : Day
   - `H` : Hour
+  
+## Last Step
 
-## Examples of running the program
+Save your raw transaction data excel file **into** the ltv_cohort_analysis directory that's created when you clone this git repository.
+
+`$ cd ltv_cohort_analysis`
+
+## Examples of how to run the program from the command line
 
 `$ python3 ltv_cohort_analysis.py my_excel_transaction_file M`
 
 `$ python3 ltv_cohort_analysis.py sql_dump D`
-
-## Last Step
-Save your raw transaction data excel file **into** the ltv_cohort_analysis directory that's created when you clone this git repository.

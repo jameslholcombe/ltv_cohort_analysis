@@ -17,8 +17,8 @@ The names of the columns don't matter, but you **DO** need headers, and the colu
   - On OSX or Linux, this will probably work: `$ sudo pip install virtualenv`
   - On Ubuntu Linux, this will probably work: `$ sudo apt-get install python-virtualenv`
 2. Create a new directory 
-  - `$cd new_directory`
-  - `$virtualenv venv`
+  - `$ cd new_directory`
+  - `$ virtualenv venv`
 3. Activate the corresponding virtual environment
 - `$ . venv/bin/activate`
 4. Install `pandas`

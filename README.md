@@ -7,12 +7,12 @@ This program uses the `pandas` library to calculate the weighted average value o
 
 ## Preparing the data
 
-Before running the program, save an Excel file that has columns, in this order: `transaction_id`, `customer_id`, `transaction_date`, `value`. The `value` column can be any potential aggregated value. Common use cases would be: a dollar amount (eg. gross revenue, gross margin), a count (eg. number of items bought so the integer 1, 2, 5, etc), an integer of time value (eg. seconds, minutes, hours).
+Before running the program, save an Excel file that has columns, in this order: `transaction_id`, `customer_id`, `transaction_date`, `value`. The `value` column can be any potential aggregated value. Common use cases would be: a dollar amount (eg. gross revenue, gross margin), a 'count' (eg. number of items bought so the integer 1, 2, 5, etc), an integer of time value (eg. seconds, minutes, hours).
 Name the tab the data is in `raw_data`.
 
 The names of the columns don't matter, but you **DO** need headers, and the columns should be in the correct order.
 
-## To prepare running the program:
+## Getting your machine ready to run the program:
 1. Install `virtualenv` on your system:
   - On OSX or Linux, this will probably work: `$ sudo pip install virtualenv`
   - On Ubuntu Linux, this will probably work: `$ sudo apt-get install python-virtualenv`

@@ -7,7 +7,7 @@ This program uses the `pandas` library to calculate the weighted average value o
 
 ## Preparing the data
 
-Before running the program, save an Excel file that has columns, in this order: `transaction_id`, `customer_id`, `transaction_date`, `value`. The `value` column can be any potential aggregated value. Common use cases would be: a dollar amount (eg. gross revenue, gross margin), a 'count' (eg. number of items bought so the integer 1, 2, 5, etc), an integer of time value (eg. seconds, minutes, hours).
+Before running the program, save an Excel file that has columns, in this order: `transaction_id`, `customer_id`, `transaction_date`, `value`. The `value` column can be any value that's able to be aggregated. Common use cases would be: a dollar amount (eg. gross revenue, gross margin), a 'count' (eg. number of items bought so the integer 1, 2, 5, etc), an integer of time value (eg. number of seconds, minutes, or hours).
 
 Name the tab the data is in `raw_data`.
 
@@ -27,7 +27,7 @@ The names of the columns don't matter, but you **DO** need headers, and the colu
 4. Install dependencies
 - `pip install pandas`
 - `pip install xlrd`
-5. The program will take two command line arguments: name of file without the `.xlsx` file type and the period you would like to run the cohort analysis on. Here are the common period options for a cohort analysis:
+5. The program will take two command line arguments: name of file **without** the `.xlsx` file type and the period you would like to run the cohort analysis on. Here are the common period options for a cohort analysis:
   - `M` : Month
   - `D` : Day
   - `H` : Hour

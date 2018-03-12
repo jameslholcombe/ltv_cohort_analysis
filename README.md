@@ -21,6 +21,8 @@ The names of the columns don't matter, but you **DO** need headers, and the colu
   - `$ virtualenv venv`
 3. Activate the corresponding virtual environment
 - `$ . venv/bin/activate`
-4. Install `pandas`
+4. Install dependencies
 - `pip install pandas`
+- `pip install xlrd`
+
 

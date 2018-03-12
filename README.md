@@ -19,6 +19,8 @@ The names of the columns don't matter, but you **DO** need headers, and the colu
 2. Create a new directory 
   - `$cd new_directory`
   - `$virtualenv venv`
-3. Activate the corresponding virtual environment: `$ . venv/bin/activate`
-4. 
+3. Activate the corresponding virtual environment
+-`$ . venv/bin/activate`
+4. Install `pandas`
+- `pip install pandas`
 

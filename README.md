@@ -24,5 +24,13 @@ The names of the columns don't matter, but you **DO** need headers, and the colu
 4. Install dependencies
 - `pip install pandas`
 - `pip install xlrd`
+5. The program will take two command line arguments: name of file without the `.xlsx` file type and the period you would like to run the cohort analysis on. Here are the common period options for a cohort analysis:
+  - `M` : Month
+  - `D` : Day
+  - `H` : Hour
 
+## Examples of running the program
 
+`$ python3 ltv_cohort_analysis.py my_excel_transaction_file M`
+
+`$ python3 ltv_cohort_analysis.py sql_dump D`
